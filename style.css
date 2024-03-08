@@ -60,3 +60,9 @@ i#ip::before {
     top: 50%;
     left: 30%;
 }
+i:hover{
+    transform: scale(1.1);
+}
+i {
+    transition: 0.3s;
+}
