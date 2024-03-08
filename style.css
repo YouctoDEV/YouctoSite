@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Rubik&display=swap');
 body {
     height: 100vh;
     margin: 0;
-    background: url(./images/background.jpg) no-repeat center/cover;
+    background: url(./images/5171835.jpg) no-repeat center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 .container {
     background: #fff;
-    height: 30%;
+    height: 40%;
     width: 50%;
     border-radius: 8px;
     opacity: 0.50;
@@ -35,7 +35,7 @@ ul {
 }
 li {
     color: #fff;
-    font-family: "Madimi One", sans-serif;
+    font-family: "Protest Strike", sans-serif;
     font-size: 100px;
 }
 i#quizz {
