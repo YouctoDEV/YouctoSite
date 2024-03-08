@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap; /* Ajoutez cette ligne */
+    flex-wrap: wrap; 
 }
 nav {
     position: fixed;
@@ -38,10 +38,25 @@ li {
     font-family: "Madimi One", sans-serif;
     font-size: 100px;
 }
-.container > button {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-    border: none;
-    background: #ffffff;
+i#quizz {
+    background: rgb(255, 0, 0) center/cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+i#quizz::before {
+    position: relative;
+    top: 50%;
+    left: 32%;
+}
+i#ip {
+    background: aqua center/cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+i#ip::before {
+    position: relative;
+    top: 50%;
+    left: 30%;
 }
