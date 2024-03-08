@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background: url(./images/5171835.jpg) no-repeat center/cover;
+    background: url(./images/10-14-Night-Thumb.jpg) no-repeat center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,4 +65,8 @@ i:hover{
 }
 i {
     transition: 0.3s;
+}
+a#quizz{
+    text-decoration: none;
+    color: black;
 }
