@@ -1,0 +1,12 @@
+{
+    "cartes": [
+        {
+            "url": "https://ipcalcul.youcto.fr/",
+            "back" : "url(./images/ip.png) center/cover no-repeat"
+        },
+        {
+            "url": "https://foxybot.youcto.fr/",
+            "back" : "url(./images/616519.png) center/cover no-repeat"
+        }
+    ]
+}

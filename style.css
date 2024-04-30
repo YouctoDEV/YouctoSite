@@ -6,18 +6,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-.container {
-    background: #fff;
-    height: 40%;
-    width: 50%;
-    border-radius: 8px;
-    opacity: 0.50;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap; 
 }
 nav {
     position: fixed;
@@ -38,35 +27,14 @@ li {
     font-family: "Protest Strike", sans-serif;
     font-size: 100px;
 }
-i#quizz {
-    background: rgb(255, 0, 0) center/cover;
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
+a {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  transition: transform 0.5s ease;
+  border-radius: .6rem;
+  background: green;
 }
-i#quizz::before {
-    position: relative;
-    top: 50%;
-    left: 32%;
-}
-i#ip {
-    background: aqua center/cover;
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
-}
-i#ip::before {
-    position: relative;
-    top: 50%;
-    left: 30%;
-}
-i:hover{
-    transform: scale(1.1);
-}
-i {
-    transition: 0.3s;
-}
-a#quizz{
-    text-decoration: none;
-    color: black;
+a:hover{
+  transform: scale(1.1);
 }
